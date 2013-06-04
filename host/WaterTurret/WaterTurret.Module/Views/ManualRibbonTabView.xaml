@@ -1,0 +1,50 @@
+﻿<r:RibbonTab x:Class="WaterTurret.Module.Views.ManualRibbonTabView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:p="http://www.codeplex.com/prism"
+             mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300"
+             Header="수동 제어" ContextualTabGroupHeader="수동 모드">
+
+    <!-- See code-behind for implementation of IRegionMemberLifetime interface. This interface
+    causes the RibbonTab to be unloaded from the Ribbon when we switch views. -->
+
+    <r:RibbonGroup Header="외부 상하 제어">
+        <r:RibbonRadioButton Label="노즐" IsChecked="{Binding ExternalTiltNozzle}" />
+        <r:RibbonRadioButton Label="카메라" IsChecked="{Binding ExternalTiltCamera}" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="카메라 상하 제어">
+        <r:RibbonButton Label="상" p:Click.Command="{Binding CameraUpCommand}" />
+        <r:RibbonButton Label="하" p:Click.Command="{Binding CameraDownCommand}" />
+        <r:RibbonButton Label="원점" p:Click.Command="{Binding CameraCenterCommand}" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="노즐 상하 제어">
+        <r:RibbonButton Label="상" p:Click.Command="{Binding NozzleUpCommand}"/>
+        <r:RibbonButton Label="하" p:Click.Command="{Binding NozzleDownCommand}" />
+        <r:RibbonButton Label="원점" p:Click.Command="{Binding NozzleCenterCommand}" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="좌우 제어">
+        <r:RibbonButton Label="좌" p:Click.Command="{Binding PanLeftCommand}" />
+        <r:RibbonButton Label="우" p:Click.Command="{Binding PanRightCommand}" />
+        <r:RibbonButton Label="원점" p:Click.Command="{Binding PanCenterCommand}" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="수압 제어 방식">
+        <r:RibbonRadioButton Label="반자동" IsChecked="{Binding AutoControl}"/>
+        <r:RibbonRadioButton Label="수동" IsChecked="True" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="반자동 살수" IsEnabled="{Binding AutoControl}">
+        <r:RibbonButton Label="살수 시작" p:Click.Command="{Binding WaterOnCommand}" />
+        <r:RibbonButton Label="살수 중지" p:Click.Command="{Binding WaterOffCommand}"/>
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="펌프 수동 제어" IsEnabled="{Binding ManualControl}">
+        <r:RibbonRadioButton Label="켜짐" p:Click.Command="{Binding PumpOnCommand}" IsChecked="{Binding DeviceService.IsPumpOn, Mode=OneWay}" />
+        <r:RibbonRadioButton Label="꺼짐" p:Click.Command="{Binding PumpOffCommand}" IsChecked="{Binding DeviceService.IsPumpOff, Mode=OneWay}" />
+    </r:RibbonGroup>
+    <r:RibbonGroup Header="밸브 수동 제어" IsEnabled="{Binding ManualControl}">
+        <r:RibbonRadioButton Label="열림" p:Click.Command="{Binding ValveOnCommand}" IsChecked="{Binding DeviceService.IsValveOn, Mode=OneWay}" />
+        <r:RibbonRadioButton Label="닫힘" p:Click.Command="{Binding ValveOffCommand}" IsChecked="{Binding DeviceService.IsValveOff, Mode=OneWay}"/>
+    </r:RibbonGroup>
+
+</r:RibbonTab>

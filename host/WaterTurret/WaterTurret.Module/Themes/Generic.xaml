@@ -1,0 +1,82 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WaterTurret.Module.Controls">
+
+    <!-- Default style for RegionBorderStyle -->
+    <Style TargetType="local:RegionBorderControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:RegionBorderControl">
+                    <Border Margin="2" CornerRadius="4" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.Row="0" CornerRadius="4,4,0,0" BorderBrush="#FF28332D" BorderThickness="0,0,0,1"
+                                VerticalAlignment="Top" Background="{TemplateBinding Background}">
+                                <TextBlock Text="{TemplateBinding RegionName}" TextWrapping="Wrap"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       Foreground="{TemplateBinding Foreground}"
+                                       FontFamily="{TemplateBinding FontFamily}" FontWeight="{TemplateBinding FontWeight}" FontSize="{TemplateBinding FontSize}" />
+                            </Border>
+                            <ContentPresenter Grid.Row="1" Cursor="{TemplateBinding Cursor}" ContentTemplate="{TemplateBinding ContentTemplate}" />
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- TimeGauge -->
+    <Style TargetType="local:TimeGauge">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:TimeGauge">
+                    <Border Height="33" Width="200">
+                        <Border.Background>
+                            <SolidColorBrush Color="Red"  Opacity="0.7" />
+                        </Border.Background>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   Text="{TemplateBinding Text}" Foreground="Aquamarine"  FontSize="16"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ModeGauge -->
+    <Style TargetType="{x:Type local:ModeGauge}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ModeGauge}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   Text="{TemplateBinding ModeDescription}" Foreground="LightGreen" FontWeight="Bold" FontSize="18"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- VisualizationControl -->
+    <Style TargetType="{x:Type local:VisualizationControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:VisualizationControl}">
+                    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Image DataContext="{TemplateBinding ImageProcessorService}" Source="{Binding BackgroundBitmapImage}" Width="{Binding BackgroundImageSource.Width}"/>
+                        <local:TimeGauge VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+                        <local:ModeGauge DataContext="{TemplateBinding TurretService}" ModeDescription="{Binding ModeDescription}" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="5" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

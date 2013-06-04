@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="로컬" id="61605c38-a998-4418-8215-d27f595b7c9d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>로컬 테스트 실행에 대한 기본 테스트 설정입니다.</Description>
+  <Deployment enabled="false" />
+  <Execution>
+    <TestTypeSpecific />
+    <AgentRule name="Execution Agents">
+    </AgentRule>
+  </Execution>
+</TestSettings>

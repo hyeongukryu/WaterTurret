@@ -1,0 +1,59 @@
+﻿<r:RibbonWindow x:Class="WaterTurret.Shell.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:r="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary"
+        xmlns:p="http://www.codeplex.com/prism"
+        Title="WaterTurret" Height="700" Width="1000" MinWidth="1000" MinHeight="700">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" MinWidth="150" MaxWidth="400" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        
+        <!-- Ribbon -->
+        <r:Ribbon x:Name="Ribbon" p:RegionManager.RegionName="RibbonRegion"
+                  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+
+            <r:Ribbon.ContextualTabGroups>
+                <r:RibbonContextualTabGroup Header="대기 모드" Visibility="Visible" Background="Gray" />
+                <r:RibbonContextualTabGroup Header="관수 모드" Visibility="Visible" Background="Green" />
+                <r:RibbonContextualTabGroup Header="청소 모드" Visibility="Visible" Background="Blue" />
+                <r:RibbonContextualTabGroup Header="수동 모드" Visibility="Visible" Background="Purple" />
+            </r:Ribbon.ContextualTabGroups>
+        </r:Ribbon>
+        
+        <!-- Content -->
+        <ContentControl Grid.Row="1" Grid.RowSpan="2" Grid.Column="2"
+              p:RegionManager.RegionName="WorkspaceRegion" />
+        
+        
+        <!-- IO -->
+        <ContentControl Grid.Row="1" p:RegionManager.RegionName="LeftRegion" />
+        
+        
+
+        
+        
+        <!-- Mode -->
+        <StackPanel Grid.Row="2">
+            <Button p:Click.Command="{Binding StandbyCommand}">대기 모드</Button>
+            <Button p:Click.Command="{Binding WateringCommand}">관수 모드</Button>
+            <Button p:Click.Command="{Binding CleaningCommand}">청소 모드</Button>
+            <Button p:Click.Command="{Binding ManualCommand}">수동 모드</Button>
+        </StackPanel>
+
+        <!-- GridSplitter -->
+        <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"
+                      HorizontalAlignment="Center" VerticalAlignment="Stretch"
+                      Width="5" Background="BlanchedAlmond"/>
+
+    </Grid>
+</r:RibbonWindow>

@@ -1,0 +1,26 @@
+<prism:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:prism="clr-namespace:Microsoft.Practices.Prism.Modularity;assembly=Microsoft.Practices.Prism">
+
+    <prism:ModuleInfo Ref="WaterTurret.Module.dll"
+                      ModuleName="WaterTurret.Module"
+                      ModuleType="WaterTurret.Module.ModuleInit, WaterTurret.Module, Version=1.0.0.0"
+                      InitializationMode="WhenAvailable"/>
+    
+    <!--<prism:ModuleInfo Ref="Module1.dll"
+                      ModuleName="Module1"
+                      ModuleType="Module1.ModuleInit, Module1, Version=1.0.0.0"
+                      InitializationMode="WhenAvailable"/>-->
+
+    <!--<prism:ModuleInfo Ref="Module2.dll"
+                      ModuleName="Module2"
+                      ModuleType="Module2.ModuleInit, Module2, Version=1.0.0.0"
+                      InitializationMode="WhenAvailable">
+        <prism:ModuleInfo.DependsOn>
+            <sys:String>Module1</sys:String>
+        </prism:ModuleInfo.DependsOn>
+    </prism:ModuleInfo>-->
+
+</prism:ModuleCatalog>
+

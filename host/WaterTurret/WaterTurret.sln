@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterTurret.Shell", "WaterTurret.Shell\WaterTurret.Shell.csproj", "{C9F432D0-76A0-4E02-BD2E-9F19C3204126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterTurret.Module", "WaterTurret.Module\WaterTurret.Module.csproj", "{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterTurret.Common", "WaterTurret.Common\WaterTurret.Common.csproj", "{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B393600-82F5-4C56-8E42-6263BF087853}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WaterTurret.vsmdi = WaterTurret.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterTurret.Tests", "WaterTurret.Tests\WaterTurret.Tests.csproj", "{93D4638E-EB3D-47B2-9B75-6A166A686CC8}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WaterTurret.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Debug|Win32.ActiveCfg = Debug|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Debug|Win32.Build.0 = Debug|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Release|Win32.ActiveCfg = Release|x86
+		{C9F432D0-76A0-4E02-BD2E-9F19C3204126}.Release|Win32.Build.0 = Release|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Debug|Win32.ActiveCfg = Debug|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Debug|Win32.Build.0 = Debug|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Release|Win32.ActiveCfg = Release|x86
+		{0C1D4A98-8B54-4DB6-88B4-20DB55DCAFDC}.Release|Win32.Build.0 = Release|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Debug|Win32.ActiveCfg = Debug|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Debug|Win32.Build.0 = Debug|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Release|Win32.ActiveCfg = Release|x86
+		{4FAC2BFA-5A23-4EB4-9802-7DEE5C735BE0}.Release|Win32.Build.0 = Release|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Debug|Win32.ActiveCfg = Debug|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Debug|Win32.Build.0 = Debug|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Release|Win32.ActiveCfg = Release|x86
+		{93D4638E-EB3D-47B2-9B75-6A166A686CC8}.Release|Win32.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
