@@ -1,0 +1,778 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                              user.o (__divmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              waos_context.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              waos_memory.o (malloc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                              waos_serial.o (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                              Console.o (printf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+                              Console.o (puts)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o)
+                              Console.o (scanf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o) (vfscanf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (isspace)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (strchr_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fgetc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (fgetc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ungetc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o) (ungetc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o) (__ctype_isfalse)
+
+Allocating common symbols
+Common symbol       size              file
+
+task_current        0x2               waos_task.o
+task_tasks          0x50              waos_task.o
+__brkval            0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+MessageHandlers     0x2               Console.o
+end                 0x2               waos_task.o
+task_kernel         0x2               waos_task.o
+begin               0x2               waos_task.o
+__flp               0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+LOAD waos.o
+LOAD waos_context.o
+LOAD waos_error.o
+LOAD waos_memory.o
+LOAD waos_serial.o
+LOAD waos_task.o
+LOAD waos_timer.o
+LOAD waos_util.o
+LOAD user.o
+LOAD Console.o
+LOAD waos_port.o
+LOAD Motor.o
+LOAD Water.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1dda
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x0000008c        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                0x00000098                . = ALIGN (0x2)
+                0x00000098                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000098        0x0 linker stubs
+ *(.trampolines*)
+                0x00000098                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000098                __ctors_start = .
+ *(.ctors)
+                0x00000098                __ctors_end = .
+                0x00000098                __dtors_start = .
+ *(.dtors)
+                0x00000098                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000098        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000098                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000098        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000a4       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000000a4                __do_copy_data
+ .init4         0x000000be       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000000be                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ce        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000d6        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000000d6                __vector_22
+                0x000000d6                __vector_28
+                0x000000d6                __vector_1
+                0x000000d6                __vector_32
+                0x000000d6                __vector_34
+                0x000000d6                __vector_24
+                0x000000d6                __vector_12
+                0x000000d6                __bad_interrupt
+                0x000000d6                __vector_6
+                0x000000d6                __vector_31
+                0x000000d6                __vector_3
+                0x000000d6                __vector_23
+                0x000000d6                __vector_30
+                0x000000d6                __vector_25
+                0x000000d6                __vector_11
+                0x000000d6                __vector_13
+                0x000000d6                __vector_17
+                0x000000d6                __vector_19
+                0x000000d6                __vector_7
+                0x000000d6                __vector_27
+                0x000000d6                __vector_5
+                0x000000d6                __vector_33
+                0x000000d6                __vector_4
+                0x000000d6                __vector_9
+                0x000000d6                __vector_2
+                0x000000d6                __vector_21
+                0x000000d6                __vector_29
+                0x000000d6                __vector_8
+                0x000000d6                __vector_26
+                0x000000d6                __vector_14
+                0x000000d6                __vector_10
+                0x000000d6                __vector_16
+                0x000000d6                __vector_18
+                0x000000d6                __vector_20
+ .text          0x000000da       0x52 waos.o
+                0x000000e4                waos_null
+                0x000000fe                waos_init
+                0x000000ec                waos_boot
+                0x00000118                main
+                0x000000da                waos_kernel
+ .text          0x0000012c      0x360 waos_context.o
+                0x0000012c                context_init
+                0x00000214                context_suspend
+                0x00000150                context_none
+                0x000003b4                __vector_15
+                0x000002e4                context_block
+ .text          0x0000048c        0x0 waos_error.o
+ .text          0x0000048c       0x8c waos_memory.o
+                0x000004ae                memory_stack_free
+                0x0000048e                memory_stack_base
+                0x0000049c                memory_stack_zero
+                0x000004dc                memory_stack_alloc
+                0x0000048c                memory_init
+ .text          0x00000518       0x44 waos_serial.o
+                0x00000546                serial_tx0
+                0x00000518                serial_init
+                0x00000552                serial_rx0
+ .text          0x0000055c      0x1ec waos_task.o
+                0x000006be                task_begin
+                0x00000594                task_create_locked
+                0x000005c8                task_create
+                0x000005da                task_schedule
+                0x0000055c                task_tick
+                0x0000064a                task_kernel_work
+                0x000006e4                task_init
+                0x000005d2                task_remove
+ .text          0x00000748       0x1e waos_timer.o
+                0x00000748                timer_init
+                0x0000074a                timer_sleep
+                0x00000760                timer_tick_event
+ .text          0x00000766       0x52 waos_util.o
+                0x00000766                util_delay_us
+                0x0000077e                util_delay_ms
+ .text          0x000007b8       0xf6 user.o
+                0x0000085a                Fnd
+                0x000007b8                User
+                0x000007e2                Counter
+ .text          0x000008ae      0x370 Console.o
+                0x000008fe                ConsoleSendMessage
+                0x000009fa                ConsoleReceiveMessage
+                0x00000aec                Console
+                0x000009be                ConsoleNextInt
+                0x000008ba                ConsoleDefaultMessageHandler
+                0x000008ae                ConsoleMessageHelper
+ .text          0x00000c1e       0x74 waos_port.o
+                0x00000c1e                port_init
+                0x00000c72                port_status_led_off
+                0x00000c52                port_status_led_on
+ .text          0x00000c92      0x1ce Motor.o
+                0x00000cda                MotorEmergency
+                0x00000d4c                MotorTiltNozzleGet
+                0x00000d94                MotorPanMoveLockedAsync
+                0x00000e2e                MotorPanSet
+                0x00000d6e                MotorPanGet
+                0x00000d04                MotorTiltCameraGet
+                0x00000ce8                MotorTiltCameraSet
+                0x00000d26                MotorTiltNozzleSet
+                0x00000c92                Motor
+ .text          0x00000e60       0x98 Water.o
+                0x00000eb4                WaterValveOn
+                0x00000e92                WaterPumpOff
+                0x00000e70                WaterValveOff
+                0x00000e6c                WaterEmergency
+                0x00000ed6                WaterPumpOn
+                0x00000e60                Water
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .text          0x00000ef8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x00000ef8                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00000ef8       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                0x00000ef8                __divmodhi4
+                0x00000ef8                _div
+ .text.libgcc   0x00000f1e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000f1e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000f1e       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x00000f1e                __udivmodhi4
+ .text.avr-libc
+                0x00000f46      0x20a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00000f46                malloc
+                0x000010a0                free
+ .text.avr-libc
+                0x00001150       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                0x00001150                printf
+ .text.avr-libc
+                0x00001174       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+                0x00001174                puts
+ .text.avr-libc
+                0x000011de       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o)
+                0x000011de                scanf
+ .text.avr-libc
+                0x00001202      0x40c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00001202                vfprintf
+ .text.avr-libc
+                0x0000160e      0x5a4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+                0x0000196c                vfscanf
+ .text.avr-libc
+                0x00001bb2       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+                0x00001bb2                isspace
+ .text.avr-libc
+                0x00001bc2       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+                0x00001bc2                strchr_P
+ .text.avr-libc
+                0x00001bd8       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00001bd8                strnlen_P
+ .text.avr-libc
+                0x00001bee       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00001bee                strnlen
+ .text.avr-libc
+                0x00001c04       0x84 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fgetc.o)
+                0x00001c04                fgetc
+ .text.avr-libc
+                0x00001c88       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00001c88                fputc
+ .text.avr-libc
+                0x00001ce0       0x34 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ungetc.o)
+                0x00001ce0                ungetc
+ .text.avr-libc
+                0x00001d14       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00001d14                __ultoa_invert
+ .text.avr-libc
+                0x00001dd0        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x00001dd4                __ctype_istrue
+                0x00001dd0                __ctype_isfalse
+                0x00001dd6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001dd6        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x00001dd6                exit
+                0x00001dd6                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001dd6        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001dda                _etext = .
+
+.data           0x00800100       0x3e load address 0x00001dda
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100        0x0 waos.o
+ .data          0x00800100        0x0 waos_context.o
+ .data          0x00800100        0x0 waos_error.o
+ .data          0x00800100        0x0 waos_memory.o
+ .data          0x00800100       0x1c waos_serial.o
+                0x00800100                waos_serial_rx
+                0x0080010e                waos_serial_tx
+ .data          0x0080011c        0x0 waos_task.o
+ .data          0x0080011c        0x0 waos_timer.o
+ .data          0x0080011c        0x0 waos_util.o
+ .data          0x0080011c        0xa user.o
+                0x0080011c                FndTable
+ .data          0x00800126       0x12 Console.o
+ .data          0x00800138        0x0 waos_port.o
+ .data          0x00800138        0x0 Motor.o
+ .data          0x00800138        0x0 Water.o
+ .data          0x00800138        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x00800138        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00800138        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800138        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00800138        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x0080013a                __malloc_heap_start
+                0x0080013c                __malloc_heap_end
+                0x00800138                __malloc_margin
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080013e                . = ALIGN (0x2)
+                0x0080013e                _edata = .
+                0x0080013e                PROVIDE (__data_end, .)
+
+.bss            0x0080013e       0x6e
+                0x0080013e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080013e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x0080013e        0x0 waos.o
+ .bss           0x0080013e        0x2 waos_context.o
+                0x0080013e                context_current
+ .bss           0x00800140        0x0 waos_error.o
+ .bss           0x00800140        0x0 waos_memory.o
+ .bss           0x00800140        0x0 waos_serial.o
+ .bss           0x00800140        0x0 waos_task.o
+ .bss           0x00800140        0x0 waos_timer.o
+ .bss           0x00800140        0x0 waos_util.o
+ .bss           0x00800140        0x6 user.o
+                0x00800140                FndData
+                0x00800144                count
+ .bss           0x00800146        0x0 Console.o
+ .bss           0x00800146        0x0 waos_port.o
+ .bss           0x00800146        0x2 Motor.o
+                0x00800146                panCurrent
+ .bss           0x00800148        0x0 Water.o
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(scanf.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfscanf_std.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(isspace.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strchr_P.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fgetc.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ungetc.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x00800148        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800148       0x58 waos_task.o
+                0x00800148                task_current
+                0x0080014a                task_tasks
+                0x0080019a                end
+                0x0080019c                task_kernel
+                0x0080019e                begin
+ COMMON         0x008001a0        0x2 Console.o
+                0x008001a0                MessageHandlers
+ COMMON         0x008001a2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x008001a2                __brkval
+                0x008001a4                __flp
+ COMMON         0x008001a6        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x008001a6                __iob
+                0x008001ac                PROVIDE (__bss_end, .)
+                0x00001dda                __data_load_start = LOADADDR (.data)
+                0x00001e18                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001ac        0x0
+                0x008001ac                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001ac                PROVIDE (__noinit_end, .)
+                0x008001ac                _end = .
+                0x008001ac                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x180
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 waos.o
+ .debug_aranges
+                0x00000020       0x20 waos_context.o
+ .debug_aranges
+                0x00000040       0x20 waos_memory.o
+ .debug_aranges
+                0x00000060       0x20 waos_serial.o
+ .debug_aranges
+                0x00000080       0x20 waos_task.o
+ .debug_aranges
+                0x000000a0       0x20 waos_timer.o
+ .debug_aranges
+                0x000000c0       0x20 waos_util.o
+ .debug_aranges
+                0x000000e0       0x20 user.o
+ .debug_aranges
+                0x00000100       0x20 Console.o
+ .debug_aranges
+                0x00000120       0x20 waos_port.o
+ .debug_aranges
+                0x00000140       0x20 Motor.o
+ .debug_aranges
+                0x00000160       0x20 Water.o
+
+.debug_pubnames
+                0x00000000      0x5a7
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x55 waos.o
+ .debug_pubnames
+                0x00000055       0x7e waos_context.o
+ .debug_pubnames
+                0x000000d3       0x7b waos_memory.o
+ .debug_pubnames
+                0x0000014e       0x66 waos_serial.o
+ .debug_pubnames
+                0x000001b4       0xdd waos_task.o
+ .debug_pubnames
+                0x00000291       0x46 waos_timer.o
+ .debug_pubnames
+                0x000002d7       0x36 waos_util.o
+ .debug_pubnames
+                0x0000030d       0x52 user.o
+ .debug_pubnames
+                0x0000035f       0xb0 Console.o
+ .debug_pubnames
+                0x0000040f       0x4f waos_port.o
+ .debug_pubnames
+                0x0000045e       0xd6 Motor.o
+ .debug_pubnames
+                0x00000534       0x73 Water.o
+
+.debug_info     0x00000000     0x1564
+ *(.debug_info)
+ .debug_info    0x00000000       0xcb waos.o
+ .debug_info    0x000000cb      0x1bd waos_context.o
+ .debug_info    0x00000288       0x65 waos_error.o
+ .debug_info    0x000002ed      0x180 waos_memory.o
+ .debug_info    0x0000046d      0x1eb waos_serial.o
+ .debug_info    0x00000658      0x3c7 waos_task.o
+ .debug_info    0x00000a1f      0x18f waos_timer.o
+ .debug_info    0x00000bae       0xd2 waos_util.o
+ .debug_info    0x00000c80      0x110 user.o
+ .debug_info    0x00000d90      0x36f Console.o
+ .debug_info    0x000010ff       0xc4 waos_port.o
+ .debug_info    0x000011c3      0x21d Motor.o
+ .debug_info    0x000013e0      0x184 Water.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xac9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5b waos.o
+ .debug_abbrev  0x0000005b       0xb0 waos_context.o
+ .debug_abbrev  0x0000010b       0x2a waos_error.o
+ .debug_abbrev  0x00000135      0x129 waos_memory.o
+ .debug_abbrev  0x0000025e      0x11e waos_serial.o
+ .debug_abbrev  0x0000037c      0x1a3 waos_task.o
+ .debug_abbrev  0x0000051f       0xc3 waos_timer.o
+ .debug_abbrev  0x000005e2       0x9f waos_util.o
+ .debug_abbrev  0x00000681       0x94 user.o
+ .debug_abbrev  0x00000715      0x1a7 Console.o
+ .debug_abbrev  0x000008bc       0x78 waos_port.o
+ .debug_abbrev  0x00000934       0xd0 Motor.o
+ .debug_abbrev  0x00000a04       0xc5 Water.o
+
+.debug_line     0x00000000     0x139c
+ *(.debug_line)
+ .debug_line    0x00000000      0x118 waos.o
+ .debug_line    0x00000118      0x1e0 waos_context.o
+ .debug_line    0x000002f8       0x3e waos_error.o
+ .debug_line    0x00000336      0x10e waos_memory.o
+ .debug_line    0x00000444      0x123 waos_serial.o
+ .debug_line    0x00000567      0x324 waos_task.o
+ .debug_line    0x0000088b       0xe2 waos_timer.o
+ .debug_line    0x0000096d      0x11e waos_util.o
+ .debug_line    0x00000a8b      0x134 user.o
+ .debug_line    0x00000bbf      0x2a4 Console.o
+ .debug_line    0x00000e63      0x135 waos_port.o
+ .debug_line    0x00000f98      0x29a Motor.o
+ .debug_line    0x00001232      0x16a Water.o
+
+.debug_frame    0x00000000      0x460
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 waos.o
+ .debug_frame   0x00000060       0x60 waos_context.o
+ .debug_frame   0x000000c0       0x60 waos_memory.o
+ .debug_frame   0x00000120       0x40 waos_serial.o
+ .debug_frame   0x00000160       0x90 waos_task.o
+ .debug_frame   0x000001f0       0x40 waos_timer.o
+ .debug_frame   0x00000230       0x30 waos_util.o
+ .debug_frame   0x00000260       0x40 user.o
+ .debug_frame   0x000002a0       0x70 Console.o
+ .debug_frame   0x00000310       0x40 waos_port.o
+ .debug_frame   0x00000350       0xa0 Motor.o
+ .debug_frame   0x000003f0       0x70 Water.o
+
+.debug_str      0x00000000      0x5cc
+ *(.debug_str)
+ .debug_str     0x00000000       0xa9 waos.o
+                                 0xe2 (size before relaxing)
+ .debug_str     0x000000a9       0xc4 waos_context.o
+                                0x176 (size before relaxing)
+ .debug_str     0x0000016d       0x15 waos_error.o
+                                 0xb9 (size before relaxing)
+ .debug_str     0x00000182       0x6b waos_memory.o
+                                0x12c (size before relaxing)
+ .debug_str     0x000001ed       0x89 waos_serial.o
+                                0x132 (size before relaxing)
+ .debug_str     0x00000276       0x94 waos_task.o
+                                0x1b5 (size before relaxing)
+ .debug_str     0x0000030a       0x3d waos_timer.o
+                                0x14d (size before relaxing)
+ .debug_str     0x00000347       0x40 waos_util.o
+                                 0xec (size before relaxing)
+ .debug_str     0x00000387       0x39 user.o
+                                 0xdd (size before relaxing)
+ .debug_str     0x000003c0       0xbd Console.o
+                                0x185 (size before relaxing)
+ .debug_str     0x0000047d       0x45 waos_port.o
+                                 0xe9 (size before relaxing)
+ .debug_str     0x000004c2       0xb1 Motor.o
+                                0x17d (size before relaxing)
+ .debug_str     0x00000573       0x59 Water.o
+                                0x11f (size before relaxing)
+
+.debug_loc      0x00000000      0x5e9
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xa0 waos_memory.o
+ .debug_loc     0x000000a0       0x2b waos_serial.o
+ .debug_loc     0x000000cb      0x173 waos_task.o
+ .debug_loc     0x0000023e       0x18 waos_timer.o
+ .debug_loc     0x00000256       0x50 waos_util.o
+ .debug_loc     0x000002a6       0x13 user.o
+ .debug_loc     0x000002b9       0xce Console.o
+ .debug_loc     0x00000387       0x52 waos_port.o
+ .debug_loc     0x000003d9      0x170 Motor.o
+ .debug_loc     0x00000549       0xa0 Water.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(WaOS.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 waos_task.o
