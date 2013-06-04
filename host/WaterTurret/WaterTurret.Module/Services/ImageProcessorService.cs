@@ -137,8 +137,8 @@ namespace WaterTurret.Module.Services
                             result.Markers.Add(marker);
 
                             // 무게 중심 좌표
-                            marker.X = blob.CenterOfGravity.X - (threshold.Width / 2);
-                            marker.Y = -(blob.CenterOfGravity.Y - (threshold.Height / 2));
+                            marker.X = (int)(blob.CenterOfGravity.X - (threshold.Width / 2));
+                            marker.Y = (int)(-(blob.CenterOfGravity.Y - (threshold.Height / 2)));
 
                             // 프레임워크에서 계산한 넓이
                             marker.FrameworkArea = blob.Area;
