@@ -36,3 +36,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --
 + LGPL v3 License에 따라서 배포되는 AForge.NET를 .NET 어셈블리로 참조합니다.
 + GNU LGPL에 따라서 배포되는 OpenCvSharp를 .NET 어셈블리로 참조하며, OpenCvSharp은 BSD License에 따라서 배포되는 OpenCV에 의존합니다.
++ Microsoft Public License에 따라서 배포되는 Microsoft Unity 2.1
++ Microsoft Prism 4
