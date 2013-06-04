@@ -35,4 +35,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 의존하는 라이브러리
 --
 + LGPL v3 License에 따라서 배포되는 AForge.NET를 .NET 어셈블리로 참조합니다.
-+ BSD License에 따라서 배포되는 OpenCV를 표준 입출력으로 사용합니다.
++ GNU LGPL에 따라서 배포되는 OpenCvSharp를 .NET 어셈블리로 참조하며, OpenCvSharp은 BSD License에 따라서 배포되는 OpenCV에 의존합니다.
