@@ -8,11 +8,10 @@ WaterTurret
 - [식물 살수](http://www.youtube.com/watch?v=4O7ib85GOOE)
 - [범위 살수](http://www.youtube.com/watch?v=7TxLnf3Ldrs)
 
-특허 출원중
+등록 특허
 --
 + 분사 시스템
-+ 대한민국 10-2012-0091467
-+ 출원 2012년 8월 21일
++ 등록 특허 제10-1432678호
 
 GPLv3 최고!
 --
